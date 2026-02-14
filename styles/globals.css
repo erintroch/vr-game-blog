@@ -15,25 +15,25 @@ a {
   box-sizing: border-box;
 }
 
-.black-icon{
+.black-icon {
   color: black;
   width: 20px;
   height: 20px;
 }
 
-.flex-content{
+.flex-content {
   display: flex;
   justify-content: center;
 }
 
-.flex-content-topnav{
+.flex-content-topnav {
   display: flex;
   align-items: center;
 }
 
 /* TOP NAV */
 
-.top-nav{
+.top-nav {
   border-bottom: 1px solid #ebebeb;
   background-color: white;
   position: fixed;
@@ -41,13 +41,13 @@ a {
   width: 100vw;
 }
 
-.top-nav-ul{
+.top-nav-ul {
   display: flex;
   justify-content: space-between;
   padding: 0 30px;
 }
 
-.top-nav-li{
+.top-nav-li {
   list-style-type: none;
   text-align: center;
   margin: 10px 30px 10px 0;
@@ -56,21 +56,21 @@ a {
 
 /**/
 
-.active-li{
+.active-li {
   color: #0070f3;
 }
 
-.active-li .nav-li-head-list{
+.active-li .nav-li-head-list {
   background-color: #0070f3;
 }
 
-.active-li .nav-li-sub-list{
+.active-li .nav-li-sub-list {
   background-color: #0070f3;
 }
 
-.nav-flexer{
+.nav-flexer {
   display: flex;
-  width: 275px;
+  width: 375px;
 }
 
 /* .ul-wrapper{
@@ -81,14 +81,14 @@ a {
   left: 50px;
 } */
 
-.nav-ul{
+.nav-ul {
   padding-left: 30px;
   margin-top: 110px;
   left: 50px;
   position: absolute;
 }
 
-.nav-line-div{
+.nav-line-div {
   border-right: 1px solid #ebebeb;
   margin-left: 50px;
   height: 100vh;
@@ -97,13 +97,13 @@ a {
   left: 0px;
 }
 
-.nav-li{
+.nav-li {
   font-weight: 300;
   list-style-type: none;
   margin: 12px 0;
 }
 
-.nav-li-head{
+.nav-li-head {
   display: flex;
   align-items: center;
   margin-left: -36px /*- padding-left + width cirkel / 2 -*/;
@@ -111,17 +111,17 @@ a {
   cursor: pointer;
 }
 
-.nav-li-sub{
+.nav-li-sub {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
 
-.nav-li-sub-text{
+.nav-li-sub-text {
   margin: 0px;
 }
 
-.nav-li-head-list{
+.nav-li-head-list {
   width: 12px /*- width -*/;
   height: 12px;
   background-color: #353535;
@@ -129,7 +129,7 @@ a {
   margin-right: 20px;
 }
 
-.nav-li-sub-list{
+.nav-li-sub-list {
   width: 7px;
   height: 7px;
   background-color: black;

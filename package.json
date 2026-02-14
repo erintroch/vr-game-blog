@@ -1,11 +1,15 @@
 {
   "name": "blog-dev-new-react",
   "private": true,
+  "engines": {
+    "node": ">=16 <18"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "use": "nvm use v16.14.2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
